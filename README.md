@@ -225,7 +225,8 @@ ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0
 ```bash
 # Open a new terminal and attach to the running container
 docker exec -it imu_gesture_control_robot bash
-
+```
+```bash
 # Inside the new terminal
 source ~/.bashrc
 cd ~/gesture_ws
@@ -237,7 +238,8 @@ ros2 launch bot_bringup simulated_robot.launch.py
 ```bash
 # Open another terminal and attach to the container
 docker exec -it imu_gesture_control_robot bash
-
+```
+```bash
 # Inside the terminal
 source ~/.bashrc
 cd ~/gesture_ws
@@ -266,7 +268,8 @@ ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0
 ```bash
 # In a new attached terminal
 docker exec -it imu_gesture_control_robot bash
-
+```
+```bash
 source ~/.bashrc
 cd ~/gesture_ws
 source install/setup.bash
