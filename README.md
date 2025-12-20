@@ -98,6 +98,7 @@ newgrp docker
 
 **Step 4: Verify Docker Installation**
 ```bash
+# Should print Hello From Docker!
 docker run hello-world
 ```
 
