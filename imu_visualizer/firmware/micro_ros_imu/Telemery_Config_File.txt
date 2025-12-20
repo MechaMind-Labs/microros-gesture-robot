@@ -1,0 +1,121 @@
+Telemetry Viewer v0.8 Settings
+
+GUI Settings:
+
+	tile column count = 6
+	tile row count = 6
+	time format = Only Time
+	show 24-hour time = false
+	show hint notifications = true
+	hint notifications color = 0x00FF00
+	show warning notifications = true
+	warning notifications color = 0xFFFF00
+	show failure notifications = true
+	failure notifications color = 0xFF0000
+	show verbose notifications = false
+	verbose notifications color = 0x00FFFF
+	show plot tooltips = true
+	smooth scrolling = true
+	show fps and period = false
+	benchmarking = false
+	antialiasing level = 16
+
+1 Connections:
+
+	connection type = UART
+	port = ttyUSB0
+	baud rate = 115200
+	packet type = Binary
+	sample rate hz = 1000
+	transmit type = Text
+	transmit data = 
+	transmit appends cr = true
+	transmit appends lf = true
+	transmit repeats = false
+	transmit repitition interval milliseconds = 1000
+	transmit saved count = 0
+	sync word = 0xAA
+	sync word byte count = 1
+	datasets count = 6
+
+		dataset location = 1
+		binary processor = int16 LSB First
+		name = Gx
+		color = 0xFF0000
+		unit = 
+		conversion factor a = 1.0
+		conversion factor b = 1.0
+
+		dataset location = 3
+		binary processor = int16 LSB First
+		name = Gy
+		color = 0x00FF00
+		unit = 
+		conversion factor a = 1.0
+		conversion factor b = 1.0
+
+		dataset location = 5
+		binary processor = int16 LSB First
+		name = Gz
+		color = 0x0000FF
+		unit = 
+		conversion factor a = 1.0
+		conversion factor b = 1.0
+
+		dataset location = 7
+		binary processor = int16 LSB First
+		name = GAx
+		color = 0xFFFF00
+		unit = 
+		conversion factor a = 1.0
+		conversion factor b = 1.0
+
+		dataset location = 9
+		binary processor = int16 LSB First
+		name = GAy
+		color = 0x00FFFF
+		unit = 
+		conversion factor a = 1.0
+		conversion factor b = 1.0
+
+		dataset location = 11
+		binary processor = int16 LSB First
+		name = GAz
+		color = 0xFF00FF
+		unit = 
+		conversion factor a = 1.0
+		conversion factor b = 1.0
+
+		checksum location = -1
+		checksum processor = null
+
+1 Charts:
+
+	chart type = Time Domain
+	top left x = 0
+	top left y = 0
+	bottom right x = 5
+	bottom right y = 5
+	datasets = connection 0 location 1,connection 0 location 3,connection 0 location 5
+	bitfield edge states = 
+	bitfield level states = 
+	duration = 10.0
+	duration unit = Seconds
+	time axis shows = Time Elapsed
+	autoscale y-axis minimum = true
+	manual y-axis minimum = -1.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 1.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false
+	trigger mode = Disabled
+	trigger affects = This Chart
+	trigger type = Rising Edge
+	trigger channel = connection 0 location 1
+	trigger level = 0.0
+	trigger hysteresis = 0.0
+	trigger pre/post ratio = 20
