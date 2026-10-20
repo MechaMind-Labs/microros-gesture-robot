@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/ebf6ab36-b1be-4994-98d0-e850d915f325
 >
 > **Watch:** [full workshop](https://youtu.be/mkafPenW_4M) · [demo clip](https://youtu.be/Ebm1XX329LQ) · LinkedIn: [project post](https://www.linkedin.com/feed/update/urn:li:activity:7364174433982275584/) · [workshop post](https://www.linkedin.com/feed/update/urn:li:activity:7370482998141489152/)
 >
-> **Related:** [UR5 MediaPipe pick-and-place](https://github.com/MechaMind-Labs/UR5_PICK_AND_PLACE_MEDIAPIPE_ROS2) — gesture control with a camera instead of an IMU · [Edge Avoiding Robot](https://github.com/MechaMind-Labs/Edge_Avoiding_Robot_Gazebo) — the robot model used here
+> **Related:** [UR5 MediaPipe pick-and-place](https://github.com/MechaMind-Labs/ur5-gesture-pick-and-place) — gesture control with a camera instead of an IMU · [Edge Avoiding Robot](https://github.com/MechaMind-Labs/edge-avoiding-robot) — the robot model used here
 
 https://github.com/user-attachments/assets/ed5868a6-5296-4faf-98b2-f56f7fcc2eed
 
@@ -134,7 +134,7 @@ Download and install Arduino IDE from [arduino.cc/en/software](https://www.ardui
 
 1. Clone this repository (if not already done):
    ```bash
-   git clone https://github.com/MechaMind-Labs/MicroROS_Gesture_Controlled_Robot_MPU6050.git Gesture_Controlled_Robot
+   git clone https://github.com/MechaMind-Labs/microros-gesture-robot.git Gesture_Controlled_Robot
    cd Gesture_Controlled_Robot
    ```
 
@@ -352,7 +352,7 @@ rosdep update
 
 ```bash
 cd ~
-git clone https://github.com/MechaMind-Labs/MicroROS_Gesture_Controlled_Robot_MPU6050.git Gesture_Controlled_Robot
+git clone https://github.com/MechaMind-Labs/microros-gesture-robot.git Gesture_Controlled_Robot
 ```
 
 ---
@@ -654,7 +654,7 @@ colcon build
 
 If you encounter issues not covered here:
 
-1. Check existing [GitHub Issues](https://github.com/MechaMind-Labs/MicroROS_Gesture_Controlled_Robot_MPU6050/issues)
+1. Check existing [GitHub Issues](https://github.com/MechaMind-Labs/microros-gesture-robot/issues)
 2. Enable verbose output:
    ```bash
    ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0 -v6
