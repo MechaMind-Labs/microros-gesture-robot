@@ -9,6 +9,13 @@ Here we bring together **ESP32 + MPU6050 IMU + micro-ROS + ROS 2** to control an
 
 https://github.com/user-attachments/assets/ebf6ab36-b1be-4994-98d0-e850d915f325
 
+
+> **At a glance:** an ESP32 running micro-ROS reads an MPU6050 IMU and publishes orientation to ROS 2; moving-average and Madgwick filtering clean the data; tilting your hand drives a robot in Gazebo and an IMU cube in RViz. Docker image included.
+>
+> **Watch:** [full workshop](https://youtu.be/mkafPenW_4M) · [demo clip](https://youtu.be/Ebm1XX329LQ)
+>
+> **Related:** [UR5 MediaPipe pick-and-place](https://github.com/MechaMind-Labs/UR5_PICK_AND_PLACE_MEDIAPIPE_ROS2) — gesture control with a camera instead of an IMU · [Edge Avoiding Robot](https://github.com/MechaMind-Labs/Edge_Avoiding_Robot) — the robot model used here
+
 https://github.com/user-attachments/assets/ed5868a6-5296-4faf-98b2-f56f7fcc2eed
 
 ---
