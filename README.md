@@ -14,6 +14,8 @@ https://github.com/user-attachments/assets/ebf6ab36-b1be-4994-98d0-e850d915f325
 >
 > **Watch:** [full workshop](https://youtu.be/mkafPenW_4M) · [demo clip](https://youtu.be/Ebm1XX329LQ) · LinkedIn: [project post](https://www.linkedin.com/feed/update/urn:li:activity:7364174433982275584/) · [workshop post](https://www.linkedin.com/feed/update/urn:li:activity:7370482998141489152/)
 >
+> **Playlists:** [Workshops and Live Labs](https://www.youtube.com/playlist?list=PLdMuvhY3uTKtMOVVnfKRV4qswTEHeXTy2) · [Robotics Projects](https://www.youtube.com/playlist?list=PLdMuvhY3uTKstk7-rEB08oEmaAYHoISt5)
+>
 > **Related:** [UR5 MediaPipe pick-and-place](https://github.com/MechaMind-Labs/ur5-gesture-pick-and-place) — gesture control with a camera instead of an IMU · [Edge Avoiding Robot](https://github.com/MechaMind-Labs/edge-avoiding-robot) — the robot model used here
 
 https://github.com/user-attachments/assets/ed5868a6-5296-4faf-98b2-f56f7fcc2eed
